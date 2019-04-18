@@ -18,7 +18,6 @@ const forecast = ( latitude, longitude, callback ) => {
             callback(undefined, body.daily.data[0].summary 
                 + ` It is currently ${temperature} degrees out with a ${chanceRain}% chance of rain.`);
 
-                
         }
     });
 };
